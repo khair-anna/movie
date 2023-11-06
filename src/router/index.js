@@ -9,7 +9,7 @@ import LogIn from '@/views/LogIn.vue'
 import SignUp from '@/views/SignUp.vue'
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path: '/',
