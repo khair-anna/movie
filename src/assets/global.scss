@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+:root {
+    --dark: #21201E;
+    --white: #FFFFFF;
+    --purple: #6100C2;
+    --gray: #969696;
+}
+
+* {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Satoshi', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: var(--white);
+    background: linear-gradient(90deg, var(--purple), var(--dark));
+}
+
+.movies {
+    margin-left: 274px;
+    padding: 40px;
+    &__title {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
