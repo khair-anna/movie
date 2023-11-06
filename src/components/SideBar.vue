@@ -3,7 +3,7 @@
         <div class="sidebar">
             <a href="/"><img src="/svg/logo.svg" alt="logo" class="sidebar-logo"></a>
             <div class="sidebar-navigation">
-                <a href="/" class="sidebar-navigation__item"><img src="/svg/film.svg" alt="film">Home</a>
+                <router-link to="/" class="sidebar-navigation__item"><img src="/svg/film.svg" alt="film">Home</router-link>
                 <router-link to="/favourites" class="sidebar-navigation__item"><img src="/svg/heart.svg" alt="heart">Favourites</router-link>
                 <router-link to="/trending" class="sidebar-navigation__item"><img src="/svg/trending-up.svg" alt="trending">Trending</router-link>
                 <router-link to="/upcoming" class="sidebar-navigation__item"><img src="/svg/calendar.svg" alt="calendar">Coming soon</router-link>
@@ -14,7 +14,7 @@
             </div>
             <div class="sidebar-navigation">
                 <a href="/" class="sidebar-navigation__item"><img src="/svg/sliders.svg" alt="settings">Settings</a>
-                <a href="/login" class="sidebar-navigation__item"><img src="/svg/log-out.svg" alt="logout">Logout</a>
+                <router-link to="/login" class="sidebar-navigation__item"><img src="/svg/log-out.svg" alt="logout">Logout</router-link>
             </div>
         </div>
     </div>

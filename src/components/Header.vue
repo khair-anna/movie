@@ -9,9 +9,9 @@
             </div>
             <div class="header-menu__right">
                 <router-link to="/search"><img src="/svg/search.svg" alt="search"></router-link>
-                <a href="/"><img src="/svg/bell.svg" alt="bell"></a>
-                <a href="/"><img src="/svg/user-img.svg" alt="user"></a>
-                <a href="/" class="header-menu__item">Anna</a>
+                <a href="#"><img src="/svg/bell.svg" alt="bell"></a>
+                <a href="#"><img src="/svg/user-img.svg" alt="user"></a>
+                <a href="#" class="header-menu__item">Anna</a>
             </div>
         </div>
     </header>
